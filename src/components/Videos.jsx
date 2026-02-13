@@ -11,19 +11,19 @@ const Videos = () => {
         {
             id: 1,
             title: "OFFICIAL MATCH REEL",
-            thumb: "/images/WhatsApp Image 2026-02-13 at 17.44.23.jpeg",
-            url: "/images/WhatsApp Video 2026-02-13 at 17.49.13.mp4"
+            thumb: "images/WhatsApp Image 2026-02-13 at 17.44.23.jpeg",
+            url: "images/WhatsApp Video 2026-02-13 at 17.49.13.mp4"
         },
         {
             id: 2,
             title: "TRAINING SESSIONS",
-            thumb: "/images/WhatsApp Image 2026-02-13 at 17.44.24.jpeg",
+            thumb: "images/WhatsApp Image 2026-02-13 at 17.44.24.jpeg",
             url: null
         },
         {
             id: 3,
             title: "SKILL SHOWCASE",
-            thumb: "/images/WhatsApp Image 2026-02-13 at 17.44.25.jpeg",
+            thumb: "images/WhatsApp Image 2026-02-13 at 17.44.25.jpeg",
             url: null
         }
     ];

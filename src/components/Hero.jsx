@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
             {/* Background decoration */}
-            <div className="absolute inset-0 bg-[url('/images/WhatsApp%20Image%202026-02-13%20at%2017.44.23.jpeg')] bg-cover bg-center opacity-30 scale-105"></div>
+            <div className="absolute inset-0 bg-[url('images/WhatsApp%20Image%202026-02-13%20at%2017.44.23.jpeg')] bg-cover bg-center opacity-30 scale-105"></div>
 
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0a0a]/80 to-[#0a0a0a]"></div>
 

@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 
 const Media = () => {
     const images = [
-        '/images/WhatsApp%20Image%202026-02-13%20at%2017.44.23.jpeg',
-        '/images/WhatsApp%20Image%202026-02-13%20at%2017.44.24.jpeg',
-        '/images/WhatsApp%20Image%202026-02-13%20at%2017.44.25.jpeg',
-        '/images/WhatsApp%20Image%202026-02-13%20at%2017.44.26.jpeg',
-        '/images/WhatsApp%20Image%202026-02-13%20at%2017.46.25.jpeg',
-        '/images/WhatsApp%20Image%202026-02-13%20at%2017.46.52.jpeg'
+        'images/WhatsApp%20Image%202026-02-13%20at%2017.44.23.jpeg',
+        'images/WhatsApp%20Image%202026-02-13%20at%2017.44.24.jpeg',
+        'images/WhatsApp%20Image%202026-02-13%20at%2017.44.25.jpeg',
+        'images/WhatsApp%20Image%202026-02-13%20at%2017.44.26.jpeg',
+        'images/WhatsApp%20Image%202026-02-13%20at%2017.46.25.jpeg',
+        'images/WhatsApp%20Image%202026-02-13%20at%2017.46.52.jpeg'
     ];
 
     return (
