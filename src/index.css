@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #D4AF37;
+  --color-electric-blue: #00BFFF;
+  --color-accent: #FFD700;
+  --font-sporty: "Orbitron", sans-serif;
+  --font-sans: "Inter", sans-serif;
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #D4AF37, 0 0 20px #D4AF37;
+    }
+
+    to {
+      text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700;
+    }
+  }
+
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #D4AF37, #FFD700);
+  border-radius: 5px;
+  border: 2px solid #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD700;
+}
+
+:root {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  background: radial-gradient(circle at top right, #1a1a1a, #050505);
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #D4AF37, #FFD700, #00BFFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
